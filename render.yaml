@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: stremio-service
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
